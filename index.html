@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>home</title>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</head>
+<body onload="loaded()">
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contacts</a></li>
+<li><a href="pictures.html">Pictures</a></li>
+</ul>
+<p id="loaded"></p>
+<h2>hi</h2>
+<p  style="color:white;text-align:center">Hi,WELCOME! To The Official Page Of Yaswanth</p>
+<div>
+<img id="yas" src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/49582293_2241862716095687_6281067479133323264_o.jpg?_nc_cat=101&_nc_ht=scontent-bom1-2.xx&oh=596e67538af82a2708d879cc2f0986e9&oe=5D249356" alt="yaswanth and his hebrews"  width="200">
+<img id="wan" src="_DSC0732.JPG" alt="yaswanth" width="200">
+</div>
+<div>
+<p><button onclick="clickCounter()" type="button">Like me!</button></p>
+<div id="result" style="color:white"></div>
+<p style="color:white">If you like my page give as many likes as you want</p>
+</div>
+
+<div>
+<table id="skilltable">
+<tr>
+<th>Name</th>
+<th>Skill</th>
+<th>Level</th
+</tr>
+</table>
+</div>
+<div class="container">
+<form onsubmit="showTable(); return false;" id="addform">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="Name" placeholder="Your name..">
+<label for="skill">Skill</label>
+<select id="skill"  name="Skill">
+<option value="HTML">HTML</option>
+<option value="C" selected>C</option>
+<option value="JAVA">JAVA</option>
+</select>
+<label for="level">Level</label>
+  <select id="level" name="Level">
+  <option value="Proficient">Proficient</option>
+   <option value="Intermediate">Intermediate</option>
+     <option value="Beginner">Beginner</option>
+
+</select>
+<input type="submit" value="Submit">
+</form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,106 @@
+
+body {
+		background-image:url("https://wallpaperplay.com/walls/full/0/c/b/8972.jpg");
+}
+ul {
+		list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+		  background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+	   text-align: center;
+padding: 14px 16px;
+		 text-decoration: none;
+}
+
+li a:hover:not(.active) {
+		background-color: #111;
+}
+
+.active {
+		background-color: tomato;
+}
+#yas {
+border: 1px solid #ddd;
+		border-radius: 4px;
+padding: 5px;
+display: block;
+margin:auto;
+width:30%;
+
+}
+
+#yas:hover {
+cursor: url('sym550.cur'), auto;
+}
+
+
+#wan {
+border: 1px solid #ddd;
+		border-radius: 4px;
+padding: 5px;
+display: block;
+margin:auto;
+width:30%;
+}
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+width: 100%;
+border: 1px solid #ddd;
+}
+
+th, td {
+
+color:tomato;
+	  text-align: left;
+padding: 16px;
+}
+
+tr:nth-child(even) {
+color:tomato;
+	  background-color: #f2f2f2
+   }
+input[type=text], select {
+color:tomato;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: block;
+border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 100%;
+	   background-color: tomato;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+		border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+		  background-color: #45a049;
+}
+
+div.container {
+		  border-radius: 5px;
+		    background-color: #f2f2f2;
+			  padding: 20px;
+}
